@@ -1,0 +1,147 @@
+{
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "Microsoft.Azure.CognitiveServices.Vision.ComputerVision/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "[2.3.12, 3.0.0)",
+          "Microsoft.Rest.ClientRuntime.Azure": "[3.3.13, 4.0.0)",
+          "Newtonsoft.Json": "6.0.8"
+        },
+        "compile": {
+          "lib/net452/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.12": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.8"
+        },
+        "frameworkAssemblies": [
+          "System.Net",
+          "System.Net.Http",
+          "System.Net.Http.WebRequest",
+          "System.Runtime",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net452/Microsoft.Rest.ClientRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Rest.ClientRuntime.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime.Azure/3.3.13": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "[2.3.12, 3.0.0)",
+          "Newtonsoft.Json": "6.0.8"
+        },
+        "compile": {
+          "lib/net452/Microsoft.Rest.ClientRuntime.Azure.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.Rest.ClientRuntime.Azure.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Azure.CognitiveServices.Vision.ComputerVision/3.2.0": {
+      "sha512": "NYMuoUAhB4MQhJjXeN9A2YnpW05l6wNIM4N3CZJVM7o+vJ85XxWq2tDvluI6TkeeuqcQOiJEWnsC45M5/hxNyA==",
+      "type": "package",
+      "path": "microsoft.azure.cognitiveservices.vision.computervision/3.2.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net452/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
+        "lib/net452/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.runtimeconfig.json",
+        "lib/net452/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.xml",
+        "lib/netstandard1.4/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
+        "lib/netstandard1.4/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.runtimeconfig.json",
+        "lib/netstandard1.4/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.xml",
+        "microsoft.azure.cognitiveservices.vision.computervision.3.2.0.nupkg.sha512",
+        "microsoft.azure.cognitiveservices.vision.computervision.nuspec"
+      ]
+    },
+    "Microsoft.Rest.ClientRuntime/2.3.12": {
+      "sha512": "sRaKzLw2/3T0LGscO9e0qsmEPQG5SEBDyRmstBrQD4VUPjvSNZhIumLh24Qkz4hB9ZWx9FJuAUIkkBc9h0IVKA==",
+      "type": "package",
+      "path": "microsoft.rest.clientruntime/2.3.12",
+      "files": [
+        ".signature.p7s",
+        "lib/net452/.xml",
+        "lib/net452/Microsoft.Rest.ClientRuntime.dll",
+        "lib/net452/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
+        "lib/netstandard1.4/.xml",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
+        "microsoft.rest.clientruntime.2.3.12.nupkg.sha512",
+        "microsoft.rest.clientruntime.nuspec"
+      ]
+    },
+    "Microsoft.Rest.ClientRuntime.Azure/3.3.13": {
+      "sha512": "I/5eB5/Hohg1qYRbVcXZ58DA36JKT/fl6OlsayYZpGJo9TbrSm/y6hdENftlWP2EkL8Ot7hojjZLV/wIBwJp6w==",
+      "type": "package",
+      "path": "microsoft.rest.clientruntime.azure/3.3.13",
+      "files": [
+        ".signature.p7s",
+        "lib/net452/.xml",
+        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.dll",
+        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.runtimeconfig.json",
+        "lib/netstandard1.4/.xml",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.runtimeconfig.json",
+        "microsoft.rest.clientruntime.azure.3.3.13.nupkg.sha512",
+        "microsoft.rest.clientruntime.azure.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/6.0.8": {
+      "sha512": "7ut47NDedTW19EbL0JpFDYUP62fcuz27hJrehCDNajdCS5NtqL+E39+7Um3OkNc2wl2ym7K8Ln5eNuLus6mVGQ==",
+      "type": "package",
+      "path": "newtonsoft.json/6.0.8",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netcore45/Newtonsoft.Json.dll",
+        "lib/netcore45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.xml",
+        "newtonsoft.json.6.0.8.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.6": [
+      "Microsoft.Azure.CognitiveServices.Vision.ComputerVision >= 3.2.0"
+    ]
+  },
+  "tools": {},
+  "projectFileToolGroups": {},
+  "packageFolders": {
+    "D:\\home\\data\\Functions\\packages\\nuget": {}
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~1",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "76ace343-d16f-4757-bc90-4f036d6ca2ce",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=serverlessapidemo;AccountKey=LpSgIbGYdBFwEy1dRTGMMCFxorDKc6my/TjRnyTbsG+fthuzRyGOCQDnzJwaV2fiNDfy3qk/bIuTdkbt8cgl9A==",
+    "WEBSITE_NODE_DEFAULT_VERSION": "6.5.0",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=serverlessapidemo;AccountKey=LpSgIbGYdBFwEy1dRTGMMCFxorDKc6my/TjRnyTbsG+fthuzRyGOCQDnzJwaV2fiNDfy3qk/bIuTdkbt8cgl9A==",
+    "WEBSITE_CONTENTSHARE": "serverlessapidemob5a5",
+    "WEBSITE_SITE_NAME": "ServerlessAPIdemo",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=serverlessapidemo;AccountKey=LpSgIbGYdBFwEy1dRTGMMCFxorDKc6my/TjRnyTbsG+fthuzRyGOCQDnzJwaV2fiNDfy3qk/bIuTdkbt8cgl9A=="
+  }
+}

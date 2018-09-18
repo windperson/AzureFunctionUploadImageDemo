@@ -1,4 +1,14 @@
 {
     "$schema": "http://json.schemastore.org/proxies",
-    "proxies": {}
+    "proxies": {
+        "HelloProxy": {
+            "matchCondition": {
+                "route": "/api/upload",
+                "methods": [
+                    "POST"
+                ]
+            },
+            "backendUri": "https://localhost/api/MultipartImagUpload?code=jCzDcKKFCeo8tzZzyWzqCKQrJu3eNC3OLHjBeIG1Ly7SpC1a/Jjuag=="
+        }
+    }
 }

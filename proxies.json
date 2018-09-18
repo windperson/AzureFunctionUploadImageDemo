@@ -8,7 +8,7 @@
                     "POST"
                 ]
             },
-            "backendUri": "https://localhost/api/MultipartImagUpload?code=jCzDcKKFCeo8tzZzyWzqCKQrJu3eNC3OLHjBeIG1Ly7SpC1a/Jjuag=="
+            "backendUri": "https://localhost/api/MultipartImagUpload?code=%FUNC_KEY%"
         }
     }
 }

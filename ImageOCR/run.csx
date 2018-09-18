@@ -28,10 +28,10 @@ public static async Task Run(ICloudBlob myBlob, ICollector<ImageText> outputTabl
             log.Info($"stream length = {imageFileStream.Length}"); // just to verify
 
             var visionClient = new ComputerVisionClient(
-                new ApiKeyServiceClientCredentials(@"0b0ab174560140ccaac2bdba3bc85bfb"),
+                new ApiKeyServiceClientCredentials(System.Environment.GetEnvironmentVariable("ComputerVisionApiKey")),
                 new System.Net.Http.DelegatingHandler[] { }
             );
-            visionClient.Endpoint = "https://westcentralus.api.cognitive.microsoft.com";
+            visionClient.Endpoint = System.Environment.GetEnvironmentVariable("ComupterVisionApiEndpoint");
 
             // reset stream position to begining 
             imageFileStream.Seek(0, SeekOrigin.Begin);
